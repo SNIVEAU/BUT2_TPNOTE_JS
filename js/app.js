@@ -1,11 +1,13 @@
 import PersonnageAll from './PersonnageAll.js'
 import Utils from './services/Utils.js';
 import Error404 from './Error404.js';
+import PersonnageDetails from './PersonnageDetails.js';
 
 const routes = {
     // '/': Home,
     // '/about': About,
-    '/personnages': new PersonnageAll() // Instanciate the component here
+    '/personnages':  new PersonnageAll(),
+    '/personnage/:id':  new PersonnageDetails()
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

@@ -1,10 +1,20 @@
 {
-    "personnage": {
-        "id": 1,
-        "nom": "Kameto",
-        "age": 20,
-        "sexe": "masculin",
-        "taille": 1.73,
-        "poids": 120000
-    }
+    "personnages": [
+        {
+            "id": 1,
+            "nom": "Kameto",
+            "age": 20,
+            "sexe": "masculin",
+            "taille": 1.73,
+            "poids": 750000
+        },
+        {
+            "id": 2,
+            "nom": "Bibi",
+            "age": 22,
+            "sexe": "masculin",
+            "taille": 1.80,
+            "poids": 80
+        }
+    ]
 }
