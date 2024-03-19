@@ -1,0 +1,9 @@
+{
+    "personnage": {
+        "nom": "Kameto",
+        "age": 20,
+        "sexe": "masculin",
+        "taille": 1.73,
+        "poids": 12000
+    }
+}
