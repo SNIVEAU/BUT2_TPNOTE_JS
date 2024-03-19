@@ -1,7 +1,11 @@
+import PersonnageAll from './PersonnageAll.js'
+import Utils from './services/Utils.js';
+import Error404 from './Error404.js';
+
 const routes = {
-    '/': Home,
-    '/about': About,
-    '/personnage': Personnage,
+    // '/': Home,
+    // '/about': About,
+    '/personnages': new PersonnageAll() // Instanciate the component here
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
@@ -17,7 +21,12 @@ const router = async () => {
     let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/' + request.verb : '')
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead
-    let page = routes[parsedURL] ? new routes[parsedURL] : Error404
+    let page = routes[parsedURL] ? routes[parsedURL] : new Error404(); // Instanciate Error404 component if route not found
     
     content.innerHTML = await page.render();
 }
+console.log('test')
+// Listen on hash change:
+window.addEventListener('hashchange', router);
+// Listen on page load:
+window.addEventListener('load', router);
