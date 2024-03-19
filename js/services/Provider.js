@@ -2,7 +2,7 @@ import { ENDPOINT } from '../config.js'
 
 export default class Provider {
 
-    static fetchPersonnages = async (limit = 10) => {
+    static fetchPersonnages = async (limit = 20) => {
         const options = {
            method: 'GET',
            headers: {

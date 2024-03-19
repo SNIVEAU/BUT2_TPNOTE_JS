@@ -19,7 +19,8 @@ export default class PersonnageAll {
 //     }
 // }
     async render() {
-        let personnages = await Provider.fetchPersonnages(10);
+        let personnages = await Provider.fetchPersonnages(99999);
+        console.log(personnages);
         let view = `
             <section class="section">
                 <h1>Personnages</h1>

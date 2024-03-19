@@ -8,9 +8,10 @@ export default class PersonnageDetails {
         console.log(post);
         return /*html*/`
             <section class="section">
-                <h1> Personnage index : ${post.nom}</h1>
-                <p> Post Title : ${post.poids} </p>
-                <p> Post Content : ${post.taille} </p>
+                <h1> C'est le/la ${post.nom}</h1>
+                <p> Il coute ${post.elixir} </p>
+                <p> Il est accessible à partie de l'arène ${post.arena} </p>
+                <p> Il est ${post.rarity}</p>
             </section>
             <p><a href="/">back to home</a></p>
             <p><a href="#/Personnages">back to all Personnages</a></p>
