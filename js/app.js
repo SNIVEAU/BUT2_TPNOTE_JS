@@ -3,9 +3,10 @@ import Utils from './services/Utils.js';
 import Error404 from './Error404.js';
 import PersonnageDetails from './PersonnageDetails.js';
 import Decks from './Decks.js';
+import Home from './Home.js';
 
 const routes = {
-    // '/': Home,
+    '/': new Home(),
     // '/about': About,
     '/personnages':  new PersonnageAll(),
     '/personnage/:id':  new PersonnageDetails(),
