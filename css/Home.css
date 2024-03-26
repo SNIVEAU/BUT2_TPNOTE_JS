@@ -298,9 +298,10 @@ html {
 }
 
 footer {
-    color: #000000; 
+    color: #ffffff; 
     padding: 20px 0; 
     text-align: center;
+    background-color: #000000;
 }
 
 .icon-nav img {
@@ -312,4 +313,24 @@ footer {
 .contenu-middle img {
     width: 100%;
     height: 30%;
+}
+
+.features-section .col-md-4 {
+    float: right;
+    width: 80%; 
+}
+
+.features-section img {
+    width: 25%;
+    float: left;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.features-section h1,
+.features-section p {
+    margin-top: 6%;
+    text-align: justify;
+    margin-right: 0;
 }

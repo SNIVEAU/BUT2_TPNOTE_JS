@@ -6,10 +6,8 @@ export default class Home {
         <main>
         <section class="hero-section">
             <div class="container">
-                <h1 class="text-center">Bienvenue sur le site des crampons</h1>
-                <p class="text-center">Découvrez le monde palpitant de Clash Royale</p>
                 <div class="contenu-middle">
-                    <img src="Images/clash_royale.png" alt="">
+                    <img src="Images/image_clash_royale.png" alt="">
                 </div>
                 
         </section>
@@ -18,20 +16,14 @@ export default class Home {
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <h2>Personnages</h2>
-                        <p>Découvrez une variété de personnages uniques à jouer dans Clash Royale.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h2>Equipements</h2>
-                        <p>Explorez une large gamme d'équipements et de stratégies pour dominer vos adversaires.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h2>A Propos</h2>
-                        <p>Apprenez-en plus sur l'univers et le développement de Clash Royale.</p>
+                    <img src="Images/telephone_clash_royale.png" alt="">
+                    <span><h1>DES BATAILLES EN TEMPS RÉEL</h1></span>
+                    <p>Clash Royale est un jeu multijoueur en temps réel mettant en scène les Royales, vos personnages Clash préférés et bien plus encore. Collectionnez et améliorez des dizaines de cartes représentant les troupes, les sorts et les défenses de Clash of Clans que vous connaissez et aimez, ainsi que les Royales : Princes, Chevaliers, Bébés Dragons et bien plus encore. Faites tomber les rois et princesses ennemis de leurs tours pour vaincre vos adversaires et remporter des trophées, des couronnes et la gloire dans l'arène.</p>
                     </div>
                 </div>
             </div>
         </section>
+
 
         
         <div class="container">
@@ -78,7 +70,10 @@ export default class Home {
                 </div>
             </div>
         </div>
-        
+        <footer class="mt-5 fixed-bottom bg-light">
+        <div class="container text-center">
+            <p>&copy; 2024 SuperCell</p>
+        </div>
 
     </main>
 
