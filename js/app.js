@@ -4,6 +4,7 @@ import Error404 from './Error404.js';
 import PersonnageDetails from './PersonnageDetails.js';
 import Decks from './Decks.js';
 import Home from './Home.js';
+import DecksDetail from './DecksDetail.js'
 
 const routes = {
     '/': new Home(),
@@ -11,6 +12,7 @@ const routes = {
     '/personnages':  new PersonnageAll(),
     '/personnage/:id':  new PersonnageDetails(),
     '/decks':  new Decks(),
+    '/decks/:id': new DecksDetail(),
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

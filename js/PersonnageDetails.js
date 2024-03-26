@@ -12,6 +12,9 @@ export default class PersonnageDetails {
                 <p> Il coute ${post.elixir} </p>
                 <p> Il est accessible à partie de l'arène ${post.arena} </p>
                 <p> Il est ${post.rarity}</p>
+                <img src="${post.image}" alt="${post.nom}">
+                <p> Il est joué dans ${post.listdeck.length} Decks
+
             </section>
             <p><a href="/">back to home</a></p>
             <p><a href="#/Personnages">back to all Personnages</a></p>

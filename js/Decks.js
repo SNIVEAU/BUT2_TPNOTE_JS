@@ -7,7 +7,7 @@ export default class Decks {
                 <h1>Decks</h1>
                 <ul>
                     ${decks.map(deck => `
-                        <li><a href="#/deck/${deck.id}">${deck.nom}</a></li>
+                        <li><a href="#/decks/${deck.id}">${deck.nom}</a></li>
                     `).join('')}
                 </ul>
             </section>
