@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Home.css">
     <title>Document</title>
+    <title>Accueil</title>
+    
+    <link rel="stylesheet" href="css/Home.css">
+    
+
 </head>
+
+
 <body>
+
     <header>
         <nav class="nav-bar">
             <div class="icon-nav">
@@ -23,13 +31,28 @@
             <div class="fas burger-menu" id="burger-menu">&#9776;</div>
         </nav>
     </header>
+
+    
+    
+
+
     <footer class="mt-5 fixed-bottom bg-light">
         <div class="container text-center">
             <p>&copy; 2024 Crampons</p>
         </div>
     </footer>
-    <a href= "#/personnages">feur</a>
-    <div id="content"></div>
+
+
+    <script>
+        const hamburguer = document.getElementById("burger-menu")
+        const navMenu = document.querySelector(".list-nav-bar")
+
+
+        hamburguer.addEventListener("click", ()=>{
+        hamburguer.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        })
+    </script>
+    
 </body>
-<script type="module" src="/js/app.js"></script>
 </html>
