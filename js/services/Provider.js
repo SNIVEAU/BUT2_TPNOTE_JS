@@ -33,4 +33,26 @@ export default class Provider {
            console.log('Error getting documents', err)
        }
     }
+
+    static getPersonnages = async () => {
+        const options = {
+           method: 'GET',
+           headers: {
+               'Content-Type': 'application/json'
+           }
+       };
+       try {
+           const response = await fetch(ENDPOINT, options)
+           const json = await response.json();
+           console.log(json);
+           return json
+       } catch (err) {
+           console.log('Error getting documents', err)
+       }
+    }
+ 
+    static redirectToDetails = async (id) => {
+        window.location.href = `#/personnages${id}`
+    }
+
 }

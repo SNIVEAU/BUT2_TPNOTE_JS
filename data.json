@@ -8,7 +8,9 @@
             "arena": 0,
             "id": 1,
             "evolved_spells_sc_key": "Knight_EV1",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/knight.png",
+            "listdeck": [1,3]
         },
         {
             "nom": "Archers",
@@ -19,7 +21,9 @@
             "arena": 0,
             "id": 2,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/archers.png",
+            "listdeck": [4]
         },
         {
             "nom": "Goblins",
@@ -29,7 +33,9 @@
             "arena": 1,
             "id": 3,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/goblins.png",
+            "listdeck": [1,2]
         },
         {
             "nom": "Géant",
@@ -39,7 +45,9 @@
             "arena": 0,
             "id": 4,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/giant.png",
+            "listdeck": [1,2,3]
         },
         {
             "nom": "P.E.K.K.A",
@@ -49,7 +57,9 @@
             "arena": 6,
             "id": 5,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/pekka.png",
+            "listdeck": [3]
         },
         {
             "nom": "Gargouille",
@@ -59,7 +69,9 @@
             "arena": 0,
             "id": 6,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/minion.png",
+            "listdeck": [4]
         },
         {
             "nom": "Ballon",
@@ -69,7 +81,9 @@
             "arena": 7,
             "id": 8,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/chr_balloon.png",
+            "listdeck": [1,3]
         },
         {
             "nom": "Sorcière",
@@ -79,7 +93,9 @@
             "arena": 6,
             "id": 9,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/witch.png",
+            "listdeck": [3,4]
         },
         {
             "nom": "Barbare",
@@ -89,7 +105,9 @@
             "arena": 3,
             "id": 10,
             "evolved_spells_sc_key": "Barbarians_EV1",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/barbarians.png",
+            "listdeck": []
         },
         {
             "nom": "Golem",
@@ -99,7 +117,9 @@
             "arena": 10,
             "id": 11,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/chr_golem.png",
+            "listdeck": [3]
         },
         {
             "nom": "Kylian",
@@ -109,7 +129,9 @@
             "arena": 2,
             "id": 12,
             "evolved_spells_sc_key": "Skeletons_EV1",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/skeletons_card.png",
+            "listdeck": [1,2]
         },
         {
             "nom": "Valkyrie",
@@ -119,7 +141,9 @@
             "arena": 2,
             "id": 13,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/valkyrie.png",
+            "listdeck": [1,3,4]
         },
         {
             "nom": "Armée de kylian",
@@ -129,7 +153,9 @@
             "arena": 6,
             "id": 14,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/skeleton_horde.png",
+            "listdeck": [4]
         },
         {
             "nom": "Ahmet Bomber",
@@ -139,7 +165,9 @@
             "arena": 2,
             "id": 15,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/bomber.png",
+            "listdeck": [2,4]
         },
         {
             "nom": "Mousquetaire",
@@ -149,7 +177,9 @@
             "arena": 0,
             "id": 16,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/musketeer.png",
+            "listdeck": [1,2,4]
         },
         {
             "nom": "Bébé Dragon",
@@ -159,7 +189,9 @@
             "arena": 6,
             "id": 17,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/baby_dragon.png",
+            "listdeck": [2]
         },
         {
             "nom": "Prince",
@@ -169,7 +201,9 @@
             "arena": 7,
             "id": 18,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/prince.png",
+            "listdeck": [3]
         },
         {
             "nom": "Sorcier",
@@ -179,7 +213,9 @@
             "arena": 4,
             "id": 19,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/wizard.png",
+            "listdeck": [1,2]
         },
         {
             "nom": "Mini P.E.K.K.A",
@@ -189,20 +225,31 @@
             "arena": 0,
             "id": 20,
             "evolved_spells_sc_key": "",
-            "is_evolved": false
+            "is_evolved": false,
+            "image": "https://cdn.statsroyale.com/images/cards/full/minipekka.png",
+            "listdeck": [2,4]
         }
     ],
     "deck":[
-        {
-            "id": 1,
-            "Carte1": 1,
-            "Carte2": 3,
-            "Carte3": 4,
-            "Carte4": 8,
-            "Carte5": 12,
-            "Carte6": 13,
-            "Carte7": 16,
-            "Carte8": 19
-        }
-    ]
-}
+              {
+                "id": 1,
+                "nom": "Deck de gros",
+                "listeCarte": [1,3,4,8,12,13,16,19]
+            },
+              {
+                "id": 2,
+                "nom": "Deck de cycle",
+                "listeCarte": [2,3,20,17,12,15,16,19]
+              },
+              {
+                "id": 3,
+                "nom": "Deck de gros",
+                "listeCarte": [1,4,5,11,18,8,13,9]
+              },
+              {
+                "id": 4,
+                "nom": "Deck de racelard",
+                "listeCarte": [2,6,13,20,14,15,16,9]
+              }
+            ]
+          }

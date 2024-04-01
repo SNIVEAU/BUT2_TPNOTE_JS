@@ -1,4 +1,5 @@
 import Provider from "./services/Provider.js";
+
 console.log('test')
 export default class PersonnageAll {
     async render() {
@@ -7,9 +8,9 @@ export default class PersonnageAll {
         let view = `
             <section class="section">
                 <h1>Personnages</h1>
-                <ul>
+                <ul class="personnage-list">
                     ${personnages.map(personnage => `
-                        <li><a href="#/personnage/${personnage.id}">${personnage.nom}</a></li>
+                        <li><a href="#/personnage/${personnage.id}" class="personnage-link">${personnage.nom}</a></li>
                     `).join('')}
                 </ul>
             </section>

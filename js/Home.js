@@ -1,7 +1,11 @@
 import Provider from "./services/Provider.js";
+import Utils from "./services/Utils.js";
 console.log('home')
 export default class Home {
+
+
     async render() {
+
         let view = `
         <main>
         <section class="hero-section">
@@ -40,31 +44,34 @@ export default class Home {
                     <div class="screen">
                         <div class="limited">
                             <div class="textBlock">
-                                <div class="titre">Clash Royale</div>
-                                <div class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem voluptatibus vero sequi nisi! Aspernatur facere praesentium, consequuntur est repellat exercitationem, dolorum porro voluptatibus adipisci excepturi eaque consequatur nulla molestias ea?</div>
-                                <div class="cta">Découvrir</div>
+                                <div class="titre">Le Chevalier !</div>
+                                <div class="message">Un spécialiste du combat rapproché, cousin charmant et cultivé du barbare. On raconte que la magnificence de sa moustache a suffit à elle seule à justifier son adoubement.</div>
+                                <div class="cta" onclick="redirectToDetails(1)">En savoir plus</div>
+
                             </div>
-                            <img src="https://raw.githubusercontent.com/yannickgh/assets/main/skelly.png" alt="">
+                            <img src="../Images/knight.png" alt="">
                         </div>
                     </div>
                     <div class="screen">
                         <div class="limited">
                             <div class="textBlock">
-                                <div class="titre">Clash Royale</div>
-                                <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus libero aliquam excepturi quisquam eaque accusantium quibusdam modi nobis doloremque voluptatibus voluptas dolorem sunt, quae perferendis inventore aspernatur sequi reiciendis tempora!</div>
-                                <div class="cta">Découvrir</div>
+                                <div class="titre">Les Archers !</div>
+                                <div class="message">Un duo d'attaquantes à distance légèrement protégées. Elles vous aideront à éliminer les unités terrestres et aériennes, mais ne comptez pas sur elles pour vos conseils coiffure.</div>
+                                <div class="cta" onclick="redirectToDetails(2)">En savoir plus</div>
+
                             </div>
-                            <img src="https://raw.githubusercontent.com/yannickgh/assets/main/roi.png" alt="">
+                            <img src="../Images/archers.png" alt="">
                         </div>
                     </div>
                     <div class="screen">
                         <div class="limited">
                             <div class="textBlock">
-                                <div class="titre">Clash Royale</div>
-                                <div class="message">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti magni, dignissimos saepe repellendus officiis sed ipsam veritatis illo maiores, error dolore? Reprehenderit, nemo placeat culpa quia alias ut aliquid. At.</div>
-                                <div class="cta">Découvrir</div>
+                                <div class="titre">Les Gobelins !</div>
+                                <div class="message">Quatre attaquants de mêlée rapides et sans armure. Petits, rapides, verts et méchants !</div>
+                                <div class="cta" onclick="redirectToDetails(3)">En savoir plus</div>
+
                             </div>
-                            <img src="https://raw.githubusercontent.com/yannickgh/assets/main/gk.png" alt="">
+                            <img src="../Images/goblins.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -80,4 +87,5 @@ export default class Home {
         `;
         return view;
     }
+
 }
