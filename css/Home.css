@@ -206,7 +206,7 @@ html {
     z-index: 0;
 }
 
-.content .screen .textBlock .cta {
+.cta-1, .cta-2, .cta-3 {
     position: relative;
     background-color: #FF4E50;
     border-radius: 1rem;

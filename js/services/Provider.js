@@ -52,7 +52,7 @@ export default class Provider {
     }
  
     static redirectToDetails = async (id) => {
-        window.location.href = `#/personnages${id}`
+        window.location.href = `#/personnage/${id}`
     }
 
 }

@@ -29,9 +29,12 @@ const router = async () => {
     let page = routes[parsedURL] ? routes[parsedURL] : new Error404(); // Instanciate Error404 component if route not found
     
     content.innerHTML = await page.render();
+    await page.after_render();
 }
 console.log('test')
 // Listen on hash change:
 window.addEventListener('hashchange', router);
 // Listen on page load:
 window.addEventListener('load', router);
+
+
