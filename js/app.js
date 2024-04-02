@@ -5,6 +5,7 @@ import PersonnageDetails from './PersonnageDetails.js';
 import Decks from './Decks.js';
 import Home from './Home.js';
 import DecksDetail from './DecksDetail.js'
+import Favori from './Favori.js'
 
 const routes = {
     '/': new Home(),
@@ -13,6 +14,7 @@ const routes = {
     '/personnage/:id':  new PersonnageDetails(),
     '/decks':  new Decks(),
     '/decks/:id': new DecksDetail(),
+    '/favori': new Favori(),
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
@@ -31,8 +33,10 @@ const router = async () => {
     let page = routes[parsedURL] ? routes[parsedURL] : new Error404(); // Instanciate Error404 component if route not found
     
     content.innerHTML = await page.render();
+    await page.after_render();
 }
 console.log('test')
+localStorage.setItem('id',[]);
 // Listen on hash change:
 window.addEventListener('hashchange', router);
 // Listen on page load:

@@ -85,4 +85,7 @@ export default class Home {
         `;
         return view;
     }
+    async after_render(){
+        
+    }
 }

@@ -16,4 +16,7 @@ export default class PersonnageAll {
         `;
         return view;
     }
+    async after_render(){
+        
+    }
 }
