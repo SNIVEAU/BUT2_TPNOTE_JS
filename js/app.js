@@ -35,7 +35,6 @@ const router = async () => {
     content.innerHTML = await page.render();
     await page.after_render();
 }
-console.log('test')
 localStorage.setItem('id',[]);
 // Listen on hash change:
 window.addEventListener('hashchange', router);

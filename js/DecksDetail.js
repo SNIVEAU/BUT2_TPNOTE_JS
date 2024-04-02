@@ -18,7 +18,7 @@ export default class DecksDetail {
                 }
                 let idcard = listeCarte[i]
                 post = await Provider.getPersonnage(idcard);
-                texte+=`<img src="${post.image}" alt="${post.nom}">`
+                texte+=`<img loading="lazy" src="${post.image}" alt="${post.nom}">`
         };
         console.log(texte)
         return /*html*/texte+`
@@ -26,6 +26,9 @@ export default class DecksDetail {
             <p><a href="/">Retourner à l'accueil</a></p>
             <p><a href="#/Decks">Retourner aux decks</a></p>
         `
+    }
+    async after_render(){
+        
     }
 }
 

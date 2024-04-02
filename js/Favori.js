@@ -2,17 +2,18 @@ import Provider from "./services/Provider.js";
 export default class Decks {
     async render() {
         let view = ``
-        for (let id in localStorage){
-            let post = await Provider.getPersonnage(id);
+        console.log(localStorage)
+        for (let i = 0; i < localStorage.length; i++) {
+            let key = localStorage.key(i);
+            let value = localStorage.getItem(key);            
+            console.log(key)
+            let post = await Provider.getPersonnage(key);
             console.log(post);
-        }
-        let view = `
-            <section class="section">
-                <h1>Decks</h1>
-                <ul>
-                </ul>
-            </section>
-        `;
+            view += `
+                    <img loading="lazy" src="${post.image}" alt="${post.nom}">
+                    <p> ${post.nom}</p>
+            `;
+        };
         return view;
     }
     async after_render(){

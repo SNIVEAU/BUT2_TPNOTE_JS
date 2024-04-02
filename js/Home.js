@@ -1,5 +1,4 @@
 import Provider from "./services/Provider.js";
-console.log('home')
 export default class Home {
     async render() {
         let view = `
@@ -86,6 +85,7 @@ export default class Home {
         return view;
     }
     async after_render(){
-        
+        localStorage.clear();
+        console.log('local storage clear');
     }
 }
