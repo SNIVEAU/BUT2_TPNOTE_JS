@@ -87,6 +87,7 @@ export default class Home {
         return view;
     }
 
+    //Modifier la page après l'avoir chargée
     async after_render() {
         document.getElementsByClassName('cta-1')[0].addEventListener('click', () => Provider.redirectToDetails(1));
         document.getElementsByClassName('cta-2')[0].addEventListener('click', () => Provider.redirectToDetails(2));

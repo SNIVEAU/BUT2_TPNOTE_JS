@@ -9,17 +9,20 @@ export default class PersonnageDetails {
         return /*html*/`
             <section class="section">
                 <div class="container">
-                    <h1>C'est le/la ${post.nom}</h1>
-                    <p>Il coûte ${post.elixir} élixirs</p>
-                    <p>Il est accessible à partir de l'arène ${post.arena}</p>
-                    <p>Il est de rareté : ${post.rarity}</p>
-                    <img src="${post.image}" alt="${post.nom}">
-                    <p>Il est joué dans ${post.listdeck.length} Decks</p>
+                    <div class="card-details">
+                        <h1>C'est le/la ${post.nom}</h1>
+                        <p>Il coûte ${post.elixir} élixirs</p>
+                        <p>Il est accessible à partir de l'arène ${post.arena}</p>
+                        <p>Il est de rareté : ${post.rarity}</p>
+                        <img src="${post.image}" alt="${post.nom}" class="card-image">
+                        <p>Il est joué dans ${post.listdeck.length} Decks</p>
+                    </div>
+                    <div class="buttons">
+                        <p><a href="/" class="button">Retour à l'accueil</a></p>
+                        <p><a href="#/Personnages" class="button">Retour à tous les personnages</a></p>
+                    </div>
                 </div>
-                <p><a href="/">Retour à l'accueil</a></p>
-                <p><a href="#/Personnages">Retour à tous les personnages</a></p>
             </section>
-            
-        `
+        `;
     }
 }
