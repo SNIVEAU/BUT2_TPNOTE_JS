@@ -27,7 +27,6 @@ export default class PersonnageDetails {
         button.addEventListener('click', async function() {
             let request = Utils.parseRequestURL();
             let post = await Provider.getPersonnage(request.id);
-
             let id = request.id;
             console.log(id);
             localStorage.setItem(id, post.nom);
